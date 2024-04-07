@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .glow {
+        text-shadow: 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 1px;
+      }
+    </style>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-[#1b1a1adf]">
+    <!-- ========== Banner section ============================= -->
+
+    <section
+      class="w-[100%] h-[100vh] bg-[url('Assets/header-image.png')] bg-center bg-cover"
+    >
+      <div class="w-[100%] h-[100vh] bg-[rgba(0,0,0,0.7)]">
+        <header class="max-w-[1170px] mx-auto">
+          <div
+            class="grid sm:grid-cols-2 grid-cols-[30%_auto] py-5 px-4 items-center"
+          >
+            <figure>
+              <img src="Assets/logo.png" class="w-[200px]" alt="" />
+            </figure>
+            <div class="flex justify-end gap-[17px]">
+              <div class="relative">
+                <img
+                  src="Assets/down-icon.png "
+                  class="absolute w-3 left-24 top-5"
+                  alt=""
+                />
+                <img
+                  src="Assets/world.png"
+                  class="w-5 filter grayscale invert brightness-0 absolute left-2 top-3"
+                  alt=""
+                />
+                <select
+                  name=""
+                  id=""
+                  class="appearance-none p-[9px_33px] rounded border-[1px] bg-transparent text-white border-white"
+                >
+                  <option value="" class="text-black font-bold">English</option>
+                  <option value="" class="text-black">Hindi</option>
+                  <option value="" class="text-black">Bengali</option>
+                </select>
+              </div>
+              <button
+                class="bg-red-600 hover:bg-[rgb(143,1,1)] text-white items-center py-2 px-4 rounded font-bold"
+              >
+                Sign In
+              </button>
+            </div>
+          </div>
+        </header>
+
+        <div class="max-w-[1170px] mx-auto sm:py-[180px] py-[50px] text-center">
+          <h1 class="text-white glow font-bold mx-auto text-5xl">
+            Unlimited movies, TV shows and more
+          </h1>
+
+          <h3 class="text-white mx-auto font-medium py-7 text-2xl">
+            Watch anywhere. Cancel anytime.
+          </h3>
+          <p class="text-white font-medium text-2xl mb-7">
+            Ready to watch? Enter your email to create or restart your
+            membership.
+          </p>
+
+          <div
+            class="max-w-[900px] grid lg:grid-cols-[70%_auto] md:grid-cols-[49%_auto] sm:grid-cols-[45%_auto] grid-cols-1 px-[20px] gap-[20px] justify-center items-center mx-auto"
+          >
+            <input
+              type="email"
+              class="h-[60px] pl-[30px] bg-transparent border-[1px] border-[#ccc] text-white"
+              placeholder="Enter Your Email "
+            />
+
+            <button
+              class="bg-[rgb(193,17,15)] hover:bg-[rgb(143,1,1)] text-white items-center text-2xl m-3 lg:p-[15px_30px] p-[10px_20px] rounded font-bold"
+            >
+              Get Started >
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============= End Bannersection================ -->
+
+    <!-- ------------------------ Section 1: Enjoy on your TV ---------------------- -->
+
+    <section class="mt-2 w-[100%] bg-black sm:py-[100px] py-[50px]">
+      <div
+        class="max-w-[1170px] mx-auto font-bold grid sm:grid-cols-2 grid-cols-1 items-center"
+      >
+        <div class="grid sm:grid-cols-1 px-[15px] items-center">
+          <div class="text-white items-center sm:text-start text-center">
+            <h1 class="text-5xl py-10 glow">Enjoy on your TV</h1>
+
+            <h4 class="text-xl .glow">
+              Watch on smart TVs, PlayStation, Xbox, Chromecast, <br />
+              Apple TV, Blu-ray players and more.
+            </h4>
+          </div>
+        </div>
+
+        <figure class="relative">
+          <video
+            autoplay
+            loop
+            class="absolute w-[80%] bottom-[20%] left-[10%] z-1"
+          >
+            <source src="Assets/video-tv-in-0819.m4v" class="h-[700px]" />
+          </video>
+          <img src="Assets/tv.png" class="z-2 relative" alt="" />
+        </figure>
+      </div>
+    </section>
+    <!-- ------------------------ Section 1: Enjoy on your TV  END---------------------- -->
+
+    <!-- ========================= Section 2 : Download your shows ------------------------ -->
+
+    <section class="mt-2 w-[100%] bg-black sm:py-[100px] py-[50px]">
+      <div
+        class="max-w-[1170px] mx-auto font-bold grid sm:grid-cols-2 grid-cols-1 items-center"
+      >
+        <figure class="relative order-2 sm:order-1">
+          <img src="Assets/strangerthings.jpg" class="z-2 relative" alt="" />
+
+          <div
+            class="items-center sm:w-[60%] w-[80%] absolute sm:left-[20%] left-[10%] border-[1px] border-[#ccc] bottom-0 grid grid-cols-[70%_auto] bg-[black] rounded-[10px]"
+          >
+            <div class="grid grid-cols-[27%_auto] p-3 items-center gap-4">
+              <img src="Assets/stranger3.png " class="" alt="" />
+              <div class="text-white">
+                <h3>Stranger Things</h3>
+                <b class="text-sky-600">Downloading...</b>
+              </div>
+            </div>
+
+            <div>
+              <img src="Assets/download.gif" class="w-[50%]" alt="" />
+            </div>
+          </div>
+        </figure>
+        <div
+          class="grid sm:grid-cols-1 px-[15px] items-center order-1 sm:order-2"
+        >
+          <div class="text-white sm:text-start text-center items-center">
+            <h1 class="text-5xl py-6 glow leading-snug">
+              Download your shows to watch offline
+            </h1>
+
+            <h4 class="text-xl .glow">
+              Save your favourites easily and always have something to watch.
+            </h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================= Section 2 : Download your shows  END------------------------ -->
+
+    <!-- ------------------------------ Section 3 : Watch everywhere Start -------------------------------- -->
+    <section class="mt-2 w-[100%] bg-black sm:py-[100px] py-[50px]">
+      <div
+        class="max-w-[1170px] mx-auto font-bold grid sm:grid-cols-2 grid-cols-1 items-center"
+      >
+        <div class="grid sm:grid-cols-1 px-[15px] items-center">
+          <div class="text-white sm:text-start text-center">
+            <h1 class="text-5xl py-10 glow">Watch everywhere</h1>
+
+            <h4 class="text-xl">
+              Stream unlimited movies and TV shows on your phone, tablet,
+              laptop, and TV.
+            </h4>
+          </div>
+        </div>
+
+        <figure class="relative">
+          <video
+            autoplay
+            loop
+            class="absolute w-[60%] bottom-[47%] left-[20%] z-1"
+          >
+            <source src="Assets/video1.m4v" class="h-[700px]" />
+          </video>
+          <img src="Assets/rajma.png" class="z-2 relative" alt="" />
+        </figure>
+      </div>
+    </section>
+    <!-- ------------------------------ Section 3 : Watch everywhere END -------------------------------- -->
+
+    <!-- ---------------------------------- Section 4: Create profiles for kids Start------------------------------- -->
+
+    <section class="mt-2 w-[100%] bg-black sm:py-[100px] py-[50px]">
+      <div
+        class="max-w-[1170px] mx-auto font-bold grid sm:grid-cols-2 grid-cols-1 items-center"
+      >
+        <figure class="relative order-2 sm:order-1">
+          <img src="Assets/kids.png" class="z-2 relative" alt="" />
+        </figure>
+        <div
+          class="grid sm:grid-cols-1 px-[15px] items-center order-1 sm:order-2"
+        >
+          <div class="text-white sm:text-start text-center items-center">
+            <h1 class="text-5xl py-6 glow leading-snug">
+              Create profiles for kids
+            </h1>
+
+            <h4 class="text-xl .glow">
+              Send children on adventures with their favourite characters in a
+              space made just for them—free with your membership.
+            </h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------------------------------- Section 4: Create profiles for kids END------------------------------- -->
+
+    <!-- ============================= Section FAQ start -------------------------------- -->
+
+    <section class="mt-2 w-[100%] bg-black sm:py-[100px] py-[50px]">
+      <div class="max-w-[1170px] mx-auto px-[15px]">
+        <h1
+          class="sm:text-[50px] glow text-3xl text-center  font-medium text-white"
+        >
+          Frequently Asked Questions
+        </h1>
+
+        <div class="py-[30px]">
+          <div class="bg-[#2d2d2d] text-white mb-[15px]">
+            <div class="p-[20px] text-3xl relative border-b-[2px] border-black hover:bg-[rgb(78,78,78)] cursor-pointer open" ><h3>What is Netflix ?</h3>  <span class="absolute right-4 top-[20%]  "> +</span></div>
+
+            <div class=" text-xl scale-y-0 h-[0px] origin-top ">
+              <p>
+                Netflix is a streaming service that offers a wide variety of
+                award-winning TV shows, movies, anime, documentaries and more –
+                on thousands of internet-connected devices.
+              </p>
+              <p>
+                You can watch as much as you want, whenever you want, without a
+                single ad – all for one low monthly price. There's always
+                something new to discover, and new TV shows and movies are added
+                every week!
+              </p>
+            </div>
+          </div>
+
+          <div class="bg-[#2d2d2d] text-white mb-[15px]">
+            <div class="p-[20px] text-3xl relative border-b-[2px] border-black hover:bg-[rgb(78,78,78)] cursor-pointer open" ><h3>What is Netflix ?</h3>  <span class="absolute right-4 top-[20%]  "> +</span></div>
+
+            <div class=" text-xl scale-y-0 h-[0px] origin-top ">
+              <p>
+                Netflix is a streaming service that offers a wide variety of
+                award-winning TV shows, movies, anime, documentaries and more –
+                on thousands of internet-connected devices.
+              </p>
+              <p>
+                You can watch as much as you want, whenever you want, without a
+                single ad – all for one low monthly price. There's always
+                something new to discover, and new TV shows and movies are added
+                every week!
+              </p>
+            </div>
+          </div>
+          <div class="bg-[#2d2d2d] text-white mb-[15px]">
+            <div class="p-[20px] text-3xl relative border-b-[2px] border-black hover:bg-[rgb(78,78,78)] cursor-pointer open" ><h3>What is Netflix ?</h3>  <span class="absolute right-4 top-[20%]  "> +</span></div>
+
+            <div class=" text-xl scale-y-0 h-[0px] origin-top ">
+              <p>
+                Netflix is a streaming service that offers a wide variety of
+                award-winning TV shows, movies, anime, documentaries and more –
+                on thousands of internet-connected devices.
+              </p>
+              <p>
+                You can watch as much as you want, whenever you want, without a
+                single ad – all for one low monthly price. There's always
+                something new to discover, and new TV shows and movies are added
+                every week!
+              </p>
+            </div>
+          </div>
+          <div class="bg-[#2d2d2d] text-white mb-[15px]">
+            <div class="p-[20px] text-3xl relative border-b-[2px] border-black hover:bg-[rgb(78,78,78)] cursor-pointer open" ><h3>What is Netflix ?</h3>  <span class="absolute right-4 top-[20%]  "> +</span></div>
+
+            <div class=" text-xl scale-y-0 h-[0px] origin-top ">
+              <p>
+                Netflix is a streaming service that offers a wide variety of
+                award-winning TV shows, movies, anime, documentaries and more –
+                on thousands of internet-connected devices.
+              </p>
+              <p>
+                You can watch as much as you want, whenever you want, without a
+                single ad – all for one low monthly price. There's always
+                something new to discover, and new TV shows and movies are added
+                every week!
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="text-center text-2xl text-white">
+          <h1 class="mb-4">Ready to watch? Enter your email to create or restart your membership.
+          </h1>
+          <div
+            class="max-w-[900px] grid lg:grid-cols-[70%_auto] md:grid-cols-[49%_auto] sm:grid-cols-[45%_auto] grid-cols-1 px-[20px] gap-[20px] justify-center items-center mx-auto"
+          >
+            <input
+              type="email"
+              class="h-[60px] pl-[30px] bg-transparent border-[1px] border-[#ccc] text-white"
+              placeholder="Enter Your Email "
+            />
+
+            <button
+              class="bg-[rgb(193,17,15)] hover:bg-[rgb(143,1,1)] text-white items-center text-2xl m-3 lg:p-[15px_30px] p-[10px_20px] rounded font-bold"
+            >
+              Get Started >
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================= Section FAQ start -------------------------------- -->
+ 
+    <!-- ------------------footer----------------------- -->
+
+    <footer class="mt-2 w-[100%] bg-black sm:py-[44px] py-[25px]">
+      <div class="max-w-[1170px] mx-auto  px-[15px]">
+      
+        <h3 class="text-[#ccc] text-[25px] text-left">Questions ? call  <a href="tel:000-800-919">00-800-919</a></h3>
+      
+        
+        <div class="mb-5 grid lg:grid-cols-4 md:grid-cols-2 grid-cols-2 mx-auto text-white pt-5">
+          
+          <ul>
+            <li class="underline text-[#ccc] text-xl mb-2  ">FAQ</li>
+            <li class="underline text-[#ccc] text-xl mb-2 ">Investor Relations</li>
+            <li class="underline text-[#ccc] text-xl mb-2 ">privacy </li>
+            <li class="underline text-[#ccc] text-xl mb-2 ">Speed Test</li>
+          </ul>
+          <ul>
+            <li class="underline text-[#ccc] text-xl mb-2 mx-10">Help Center</li>
+            <li class="underline text-[#ccc] text-xl mb-2 mx-10">jobs</li>
+            <li class="underline text-[#ccc] text-xl mb-2 mx-10">Cookie Preferences </li>
+            <li class="underline text-[#ccc] text-xl mb-2 mx-10">Legal Notices</li>
+          </ul>
+          <ul>
+            <li class="underline text-[#ccc] text-xl mb-2 lg:mx-10 mx-0 ">Account</li>
+            <li class="underline text-[#ccc] text-xl mb-2 lg:mx-10 mx-0 ">Ways To Watch</li>
+            <li class="underline text-[#ccc] text-xl mb-2 lg:mx-10 mx-0 ">Corporate Information </li>
+            <li class="underline text-[#ccc] text-xl mb-2 lg:mx-10 mx-0 ">Only on Netflix</li>
+          </ul>
+          <ul>
+            <li class="underline text-[#ccc] text-xl mb-2 mx-10">
+              Media Centre</li>
+            <li class="underline text-[#ccc] text-xl mb-2 mx-10">Terms of Use</li>
+            <li class="underline text-[#ccc] text-xl mb-2 mx-10">Contact US. </li>
+            <li class="underline text-[#ccc] text-xl mb-2 mx-10">Speed Test</li>
+          </ul>
+          
+          
+        </div>
+
+        <div class="relative">
+          <img
+            src="Assets/down-icon.png "
+            class="absolute w-3 left-24 top-5"
+            alt=""
+          />
+          <img
+            src="Assets/world.png"
+            class="w-5 filter grayscale invert brightness-0 absolute left-2 top-3"
+            alt=""
+          />
+          <select
+            name=""
+            id=""
+            class="appearance-none p-[9px_33px] rounded border-[1px] bg-transparent text-white border-white"
+          >
+            <option value="" class="text-black font-bold">English</option>
+            <option value="" class="text-black">Hindi</option>
+            <option value="" class="text-black">Bengali</option>
+          </select>
+        </div>
+
+        <div class="flex gap-1 mt-5 justify-center sm:justify-start ">
+          <img src="Assets/favicon.png " class="w-9 " alt="">
+          <h3 class="text-[#ccc] mt-3"> Netflix India</h3>
+        </div>
+
+      </div>
+      </footer>
+      
+    
+    </body>
+ <script>
+  let opened = document.querySelectorAll(".open")
+
+
+  
+  opened.forEach((v,index) => {
+    console.log(v,index)
+
+    v.addEventListener("click",() => {
+
+     v.nextElementSibling.classList.toggle("h-[auto]")
+    v.nextElementSibling.classList.toggle("scale-y-100")
+    v.nextElementSibling.classList.toggle("p-[20px]")
+    v.children[1].classList.toggle("rotate-45")
+
+
+    opened.forEach((ele,i)=>{
+
+      if(i!=index)
+      {
+        ele.nextElementSibling.classList.remove("h-[auto]","scale-y-100","p-[20px]");
+        ele.children[1].classList.remove("rotate-45")
+      }
+
+    })
+    })
+  });
+ </script>
+</html>
